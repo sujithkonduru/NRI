@@ -83,7 +83,7 @@ export default function Home() {
 
   const stats = [
     { number: "5000+", label: "Students", icon: Users },
-    { number: "95%", label: "Pass Rate", icon: Award },
+    { number: "92%", label: "Pass Rate", icon: Award },
     { number: "200+", label: "Faculty", icon: GraduationCap },
     { number: "25+", label: "Years of Excellence", icon: Trophy },
   ];
