@@ -10,7 +10,7 @@ import About from "./pages/About";
 import Academics from "./pages/Academics";
 import Admissions from "./pages/Admissions";
 import Facilities from "./pages/Facilities";
-import Contact from "./pages/Contact";
+// import Contact from "./pages/Contact";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -22,7 +22,7 @@ function Router() {
       <Route path="/academics" component={Academics} />
       <Route path="/admissions" component={Admissions} />
       <Route path="/facilities" component={Facilities} />
-      <Route path="/contact" component={Contact} />
+      {/* <Route path="/contact" component={Contact} /> */}
       <Route path="/404" component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
