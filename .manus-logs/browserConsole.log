@@ -1,0 +1,989 @@
+[2026-06-25T10:25:19.102Z] {"timestamp":1782383116753,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T10:25:19.102Z] {"timestamp":1782383116815,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T10:26:05.164Z] {"timestamp":1782383162835,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T10:26:05.164Z] {"timestamp":1782383162892,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T10:26:10.238Z] {"timestamp":1782383167865,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T10:26:10.238Z] {"timestamp":1782383167899,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T10:28:14.172Z] {"timestamp":1782383291660,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T10:28:14.172Z] {"timestamp":1782383291719,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T10:28:17.287Z] {"timestamp":1782383294810,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T10:28:17.287Z] {"timestamp":1782383294859,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T10:28:37.197Z] {"timestamp":1782383307240,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-06-25T10:28:43.714Z] {"timestamp":1782383320685,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T10:28:43.714Z] {"timestamp":1782383322276,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T10:29:08.189Z] {"timestamp":1782383345852,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T10:29:08.189Z] {"timestamp":1782383345902,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T10:29:17.166Z] {"timestamp":1782383354413,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T10:29:17.166Z] {"timestamp":1782383354452,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T10:29:17.166Z] {"timestamp":1782383354737,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-25T10:29:21.299Z] {"timestamp":1782383360722,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Dashboard.tsx"],"stack":null}
+[2026-06-25T10:29:21.300Z] {"timestamp":1782383360739,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:29:27.168Z] {"timestamp":1782383365668,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Dashboard.tsx"],"stack":null}
+[2026-06-25T10:29:27.169Z] {"timestamp":1782383365668,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:30:19.018Z] {"timestamp":1782383418868,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Dashboard.tsx"],"stack":null}
+[2026-06-25T10:30:19.018Z] {"timestamp":1782383418868,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:33:05.264Z] {"timestamp":1782383584190,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T10:33:05.264Z] {"timestamp":1782383584191,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:36:15.340Z] {"timestamp":1782383773470,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T10:36:15.340Z] {"timestamp":1782383773470,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:40:56.425Z] {"timestamp":1782384055361,"level":"DEBUG","args":["[vite]","hot updated: /src/App.tsx"],"stack":null}
+[2026-06-25T10:40:56.425Z] {"timestamp":1782384055361,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:44:37.213Z] {"timestamp":1782384231723,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:44:37.213Z] {"timestamp":1782384232790,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:45:08.428Z] {"timestamp":1782384306715,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:45:08.428Z] {"timestamp":1782384306716,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-06-25T10:48:19.353Z] {"timestamp":1782384478094,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:48:19.353Z] {"timestamp":1782384479990,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:48:19.353Z] {"timestamp":1782384480011,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:48:19.353Z] {"timestamp":1782384498497,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T10:48:19.353Z] {"timestamp":1782384498497,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:51:09.660Z] {"timestamp":1782384668300,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T10:51:09.660Z] {"timestamp":1782384668300,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:51:34.994Z] {"timestamp":1782384692988,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T10:51:34.994Z] {"timestamp":1782384693059,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T10:51:34.994Z] {"timestamp":1782384693164,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-25T10:57:09.624Z] {"timestamp":1782385013370,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T10:57:09.624Z] {"timestamp":1782385013371,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:57:09.624Z] {"timestamp":1782385013414,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T10:57:09.624Z] {"timestamp":1782385013416,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:57:09.624Z] {"timestamp":1782385028234,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T10:57:29.496Z] {"timestamp":1782385047479,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T10:57:29.496Z] {"timestamp":1782385047522,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T10:57:29.496Z] {"timestamp":1782385047753,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-25T11:00:17.986Z] {"timestamp":1782385216645,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:00:17.986Z] {"timestamp":1782385216645,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:00:17.986Z] {"timestamp":1782385217160,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:17.986Z] {"timestamp":1782385217233,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218003,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218028,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218061,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218095,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218126,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218163,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218195,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218227,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218263,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218296,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218327,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218362,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218395,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218426,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218457,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218490,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218521,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218554,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218587,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218620,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218654,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218687,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218720,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218753,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218786,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218819,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218851,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218885,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218918,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218951,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385218984,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385219018,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385219050,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385219083,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385219116,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385219149,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385219182,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385219215,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:19.493Z] {"timestamp":1782385219248,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:21.496Z] {"timestamp":1782385221242,"level":"LOG","args":["Tab clicked:","subjects"],"stack":null}
+[2026-06-25T11:00:21.496Z] {"timestamp":1782385221244,"level":"LOG","args":["Rendering tab:","subjects"],"stack":null}
+[2026-06-25T11:00:21.496Z] {"timestamp":1782385221258,"level":"LOG","args":["Active Tab changed to:","subjects"],"stack":null}
+[2026-06-25T11:00:23.495Z] {"timestamp":1782385222460,"level":"LOG","args":["Tab clicked:","subjects"],"stack":null}
+[2026-06-25T11:00:23.495Z] {"timestamp":1782385222461,"level":"LOG","args":["Rendering tab:","subjects"],"stack":null}
+[2026-06-25T11:00:35.487Z] {"timestamp":1782385235010,"level":"LOG","args":["Tab clicked:","achievements"],"stack":null}
+[2026-06-25T11:00:35.488Z] {"timestamp":1782385235011,"level":"LOG","args":["Rendering tab:","achievements"],"stack":null}
+[2026-06-25T11:00:35.488Z] {"timestamp":1782385235019,"level":"LOG","args":["Active Tab changed to:","achievements"],"stack":null}
+[2026-06-25T11:00:47.494Z] {"timestamp":1782385245964,"level":"LOG","args":["Tab clicked:","programs"],"stack":null}
+[2026-06-25T11:00:47.494Z] {"timestamp":1782385245966,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:00:47.494Z] {"timestamp":1782385245983,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:00:51.494Z] {"timestamp":1782385249530,"level":"LOG","args":["Tab clicked:","subjects"],"stack":null}
+[2026-06-25T11:00:51.494Z] {"timestamp":1782385249531,"level":"LOG","args":["Rendering tab:","subjects"],"stack":null}
+[2026-06-25T11:00:51.494Z] {"timestamp":1782385249548,"level":"LOG","args":["Active Tab changed to:","subjects"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386347,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386347,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386403,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386435,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386477,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386522,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386547,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386569,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386603,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386636,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386668,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386702,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386734,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386768,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386800,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386833,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386867,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386899,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386933,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386966,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385386999,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387032,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387064,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387099,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387130,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387164,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387197,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387231,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387263,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387296,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387329,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387362,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387394,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387429,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:07.498Z] {"timestamp":1782385387462,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387496,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387527,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387560,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387593,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387627,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387660,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387691,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387726,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387758,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387791,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387827,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387859,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387891,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387925,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387962,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385387991,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388025,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388058,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388090,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388123,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388158,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388196,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388219,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388252,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388285,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388319,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388352,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388384,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388417,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:09.491Z] {"timestamp":1782385388451,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:03:52.187Z] {"timestamp":1782385431031,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:03:52.187Z] {"timestamp":1782385431031,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:04:47.304Z] {"timestamp":1782385482962,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:04:47.304Z] {"timestamp":1782385482962,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:04:47.304Z] {"timestamp":1782385483916,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:04:47.304Z] {"timestamp":1782385483916,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491020,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491044,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491080,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491113,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491146,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491179,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491212,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491244,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491278,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491310,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491343,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491377,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491410,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491442,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:51.492Z] {"timestamp":1782385491475,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491508,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491542,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491576,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491609,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491644,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491677,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491709,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491744,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491775,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491810,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491843,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491876,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491909,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491943,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385491976,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492010,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492042,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492073,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492102,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492135,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492168,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492201,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492234,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492266,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492300,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492333,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492366,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492399,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492432,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492465,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492498,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492531,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492564,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492597,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492630,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492664,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492696,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492729,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492762,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492796,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492828,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492861,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492893,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492927,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492960,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385492993,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385493026,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:04:53.494Z] {"timestamp":1782385493060,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385501594,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385501604,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385501907,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385501981,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502043,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502083,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502112,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502145,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502178,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502210,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502243,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502276,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502333,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502345,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502375,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502409,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502441,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502474,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502508,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502541,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502574,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502609,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502642,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502680,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502711,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502745,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502780,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502811,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502842,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502875,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502908,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502936,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385502969,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503003,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503039,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503069,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503100,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503133,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503166,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503199,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503233,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503265,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503299,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503331,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503364,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503397,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503431,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503464,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503496,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503529,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503562,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:03.609Z] {"timestamp":1782385503596,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385503628,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385503661,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385503695,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385503727,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385503760,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385503793,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385503827,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385503859,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385503892,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385503926,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385503959,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385503993,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385504025,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:05.601Z] {"timestamp":1782385504059,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:20.213Z] {"timestamp":1782385518298,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:05:20.213Z] {"timestamp":1782385518299,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:05:20.213Z] {"timestamp":1782385519164,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:20.213Z] {"timestamp":1782385519190,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:05:22.175Z] {"timestamp":1782385520239,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:22.175Z] {"timestamp":1782385521168,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:24.169Z] {"timestamp":1782385522174,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:28.277Z] {"timestamp":1782385527809,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:05:28.277Z] {"timestamp":1782385527809,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:05:30.172Z] {"timestamp":1782385528295,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:30.172Z] {"timestamp":1782385528313,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:05:30.172Z] {"timestamp":1782385528323,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:05:30.172Z] {"timestamp":1782385528323,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:05:30.172Z] {"timestamp":1782385529217,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:30.172Z] {"timestamp":1782385529244,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:05:31.606Z] {"timestamp":1782385530173,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:31.606Z] {"timestamp":1782385531190,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:31.606Z] {"timestamp":1782385531203,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:31.606Z] {"timestamp":1782385531226,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:31.606Z] {"timestamp":1782385531260,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:52.170Z] {"timestamp":1782385550841,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:05:52.170Z] {"timestamp":1782385550841,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:05:52.170Z] {"timestamp":1782385551167,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:52.170Z] {"timestamp":1782385551177,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:05:54.171Z] {"timestamp":1782385552169,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:54.171Z] {"timestamp":1782385553179,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:56.171Z] {"timestamp":1782385554172,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:58.311Z] {"timestamp":1782385557015,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:05:58.311Z] {"timestamp":1782385557016,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:05:58.311Z] {"timestamp":1782385557160,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:05:58.311Z] {"timestamp":1782385557166,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:06:00.156Z] {"timestamp":1782385558225,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:00.156Z] {"timestamp":1782385558327,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:06:00.156Z] {"timestamp":1782385558327,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:06:00.156Z] {"timestamp":1782385559183,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:00.156Z] {"timestamp":1782385559417,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560153,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560179,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560211,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560243,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560277,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560310,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560345,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560376,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560409,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560449,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560475,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560508,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560541,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560574,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560607,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560640,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560675,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560707,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560741,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560772,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560806,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560840,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560872,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560906,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560939,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385560972,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561005,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561036,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561070,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561105,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561138,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561168,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561203,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561233,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561266,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561300,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561332,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561367,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561398,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:01.598Z] {"timestamp":1782385561432,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:22.172Z] {"timestamp":1782385581027,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:06:22.172Z] {"timestamp":1782385581027,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:06:22.172Z] {"timestamp":1782385581173,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:22.172Z] {"timestamp":1782385581183,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:06:24.734Z] {"timestamp":1782385582171,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:24.734Z] {"timestamp":1782385583372,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:26.185Z] {"timestamp":1782385584747,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:06:26.186Z] {"timestamp":1782385584747,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:06:26.186Z] {"timestamp":1782385585184,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:26.186Z] {"timestamp":1782385585198,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:06:28.506Z] {"timestamp":1782385586173,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:28.506Z] {"timestamp":1782385587228,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:30.174Z] {"timestamp":1782385590106,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:06:30.174Z] {"timestamp":1782385590107,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:06:32.171Z] {"timestamp":1782385590193,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:32.171Z] {"timestamp":1782385590209,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:06:32.171Z] {"timestamp":1782385591508,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:33.847Z] {"timestamp":1782385592165,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:06:33.847Z] {"timestamp":1782385593170,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:09:33.609Z] {"timestamp":1782385772143,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:09:33.609Z] {"timestamp":1782385772143,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:09:57.611Z] {"timestamp":1782385795824,"level":"ERROR","args":["%o\n\n%s\n\n%s\n",{"type":"Error","message":"useState is not defined","stack":"ReferenceError: useState is not defined\n    at Facilities (http://localhost:3000/src/pages/Facilities.tsx:99:47)\n    at Object.react_stack_bottom_frame (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:18509:20)\n    at renderWithHooks (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:5654:24)\n    at updateFunctionComponent (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7475:21)\n    at beginWork (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:8525:20)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at performUnitOfWork (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12561:98)\n    at workLoopSync (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12424:43)\n    at renderRootSync (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12408:13)\n    at performWorkOnRoot (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:11827:37)"},"The above error occurred in the <Facilities> component.","React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary."],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at defaultOnCaughtError (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7001:19)\n    at logCaughtError (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7033:11)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at update.callback (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7066:13)\n    at callCallback (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:5491:18)\n    at commitCallbacks (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:5503:13)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at commitClassCallbacks (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:9490:13)\n    at commitLayoutEffectOnFiber (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:9958:27)"}
+[2026-06-25T11:10:05.373Z] {"timestamp":1782385803357,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T11:10:05.373Z] {"timestamp":1782385803446,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T11:10:05.373Z] {"timestamp":1782385803506,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-25T11:11:00.168Z] {"timestamp":1782385860114,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:11:00.168Z] {"timestamp":1782385860116,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-06-25T11:11:49.242Z] {"timestamp":1782385906730,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:11:49.242Z] {"timestamp":1782385906730,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-06-25T11:12:34.512Z] {"timestamp":1782385953709,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:12:34.512Z] {"timestamp":1782385953709,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:13:47.059Z] {"timestamp":1782386024217,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:13:47.059Z] {"timestamp":1782386024217,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:13:47.059Z] {"timestamp":1782386026598,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T11:13:47.059Z] {"timestamp":1782386026598,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386028694,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386028714,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386028749,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386028783,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386028816,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386028849,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386028883,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386028916,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386028949,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386028981,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386029015,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386029046,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386029078,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386029111,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386029146,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386029177,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386029212,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386029243,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386029277,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386029309,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:49.358Z] {"timestamp":1782386029344,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029376,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029408,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029442,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029474,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029508,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029541,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029573,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029607,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029639,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029673,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029706,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029739,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029771,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029804,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029838,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029870,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029904,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029936,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386029969,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030002,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030035,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030069,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030103,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030135,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030167,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030202,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030235,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030268,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030300,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030334,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030366,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030399,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030434,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030466,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030501,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030533,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030567,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030597,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030635,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030665,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030695,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:13:51.364Z] {"timestamp":1782386030729,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:14:24.171Z] {"timestamp":1782386062490,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Admissions.tsx"],"stack":null}
+[2026-06-25T11:14:24.171Z] {"timestamp":1782386062490,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:14:24.171Z] {"timestamp":1782386064018,"level":"ERROR","args":["[vite]",{"type":"Error","message":"im is not defined","stack":"ReferenceError: im is not defined\n    at http://localhost:3000/src/pages/Admissions.tsx?t=1782386063661:5:1"}],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:180:78)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:14:24.171Z] {"timestamp":1782386064022,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Admissions.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:14:24.171Z] {"timestamp":1782386064034,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Admissions.tsx"],"stack":null}
+[2026-06-25T11:14:24.171Z] {"timestamp":1782386064035,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:14:28.166Z] {"timestamp":1782386066620,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Admissions.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:14:28.166Z] {"timestamp":1782386066621,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Admissions.tsx"],"stack":null}
+[2026-06-25T11:14:28.166Z] {"timestamp":1782386066621,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:14:34.166Z] {"timestamp":1782386074054,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Admissions.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:14:36.305Z] {"timestamp":1782386074173,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Admissions.tsx"],"stack":null}
+[2026-06-25T11:14:36.305Z] {"timestamp":1782386074173,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:14:38.287Z] {"timestamp":1782386076590,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Admissions.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:14:38.287Z] {"timestamp":1782386076752,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Admissions.tsx"],"stack":null}
+[2026-06-25T11:14:38.287Z] {"timestamp":1782386076752,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:14:40.166Z] {"timestamp":1782386078923,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Admissions.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:14:40.166Z] {"timestamp":1782386078959,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Admissions.tsx"],"stack":null}
+[2026-06-25T11:14:40.166Z] {"timestamp":1782386078959,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:14:42.165Z] {"timestamp":1782386080876,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Admissions.tsx"],"stack":null}
+[2026-06-25T11:14:42.165Z] {"timestamp":1782386080876,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:14:42.165Z] {"timestamp":1782386080927,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Admissions.tsx"],"stack":null}
+[2026-06-25T11:14:42.165Z] {"timestamp":1782386080927,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:14:58.158Z] {"timestamp":1782386096339,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Admissions.tsx"],"stack":null}
+[2026-06-25T11:14:58.158Z] {"timestamp":1782386096339,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:14:58.158Z] {"timestamp":1782386097176,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Admissions.tsx"],"stack":null}
+[2026-06-25T11:14:58.158Z] {"timestamp":1782386097176,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:15:24.173Z] {"timestamp":1782386123705,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:15:24.173Z] {"timestamp":1782386123705,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:15:36.174Z] {"timestamp":1782386135789,"level":"ERROR","args":["[vite]",{"type":"Error","message":"impo is not defined","stack":"ReferenceError: impo is not defined\n    at http://localhost:3000/src/pages/Facilities.tsx?t=1782386134433:22:1"}],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:180:78)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:15:36.174Z] {"timestamp":1782386135791,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Facilities.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:15:36.174Z] {"timestamp":1782386135799,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:15:36.174Z] {"timestamp":1782386135799,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:15:36.174Z] {"timestamp":1782386135816,"level":"ERROR","args":["[vite]",{"type":"Error","message":"impo is not defined","stack":"ReferenceError: impo is not defined\n    at http://localhost:3000/src/pages/Facilities.tsx?t=1782386134525:22:1"}],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:180:78)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:15:36.174Z] {"timestamp":1782386135818,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Facilities.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:15:36.174Z] {"timestamp":1782386135821,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:15:36.174Z] {"timestamp":1782386135821,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:15:38.163Z] {"timestamp":1782386137682,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Facilities.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:15:38.163Z] {"timestamp":1782386137864,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:15:38.163Z] {"timestamp":1782386137864,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:15:42.162Z] {"timestamp":1782386141567,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Facilities.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:15:42.162Z] {"timestamp":1782386141597,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:15:42.162Z] {"timestamp":1782386141597,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:15:44.188Z] {"timestamp":1782386142769,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:15:44.188Z] {"timestamp":1782386142769,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:15:48.215Z] {"timestamp":1782386146364,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Facilities.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:15:48.215Z] {"timestamp":1782386146647,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:15:48.215Z] {"timestamp":1782386146647,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:15:56.496Z] {"timestamp":1782386154866,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Facilities.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:15:56.496Z] {"timestamp":1782386154869,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:15:56.496Z] {"timestamp":1782386154869,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:15:58.165Z] {"timestamp":1782386157738,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Facilities.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:15:58.165Z] {"timestamp":1782386157769,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:15:58.165Z] {"timestamp":1782386157769,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:16:00.205Z] {"timestamp":1782386158990,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Facilities.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:16:00.205Z] {"timestamp":1782386159114,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:16:00.205Z] {"timestamp":1782386159114,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:16:02.301Z] {"timestamp":1782386161103,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:16:02.301Z] {"timestamp":1782386161103,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:16:05.365Z] {"timestamp":1782386165095,"level":"ERROR","args":["%o\n\n%s\n\n%s\n",{"type":"Error","message":"Button is not defined","stack":"ReferenceError: Button is not defined\n    at Facilities (http://localhost:3000/src/pages/Facilities.tsx?t=1782386160560:309:30)\n    at Object.react_stack_bottom_frame (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:18509:20)\n    at renderWithHooks (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:5654:24)\n    at updateFunctionComponent (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7475:21)\n    at beginWork (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:8525:20)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at performUnitOfWork (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12561:98)\n    at workLoopSync (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12424:43)\n    at renderRootSync (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12408:13)\n    at performWorkOnRoot (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:11827:37)"},"The above error occurred in the <Facilities> component.","React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary."],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at defaultOnCaughtError (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7001:19)\n    at logCaughtError (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7033:11)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at update.callback (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7066:13)\n    at callCallback (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:5491:18)\n    at commitCallbacks (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:5503:13)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at commitClassCallbacks (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:9490:13)\n    at commitLayoutEffectOnFiber (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:9958:27)"}
+[2026-06-25T11:16:09.857Z] {"timestamp":1782386167849,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T11:16:09.857Z] {"timestamp":1782386167945,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T11:16:09.857Z] {"timestamp":1782386168054,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-25T11:16:09.857Z] {"timestamp":1782386168136,"level":"ERROR","args":["%o\n\n%s\n\n%s\n",{"type":"Error","message":"Button is not defined","stack":"ReferenceError: Button is not defined\n    at Facilities (http://localhost:3000/src/pages/Facilities.tsx?t=1782386160560:309:30)\n    at Object.react_stack_bottom_frame (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:18509:20)\n    at renderWithHooks (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:5654:24)\n    at updateFunctionComponent (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7475:21)\n    at beginWork (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:8525:20)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at performUnitOfWork (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12561:98)\n    at workLoopSync (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12424:43)\n    at renderRootSync (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12408:13)\n    at performWorkOnRoot (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:11827:37)"},"The above error occurred in the <Facilities> component.","React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary."],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at defaultOnCaughtError (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7001:19)\n    at logCaughtError (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7033:11)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at update.callback (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7066:13)\n    at callCallback (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:5491:18)\n    at commitCallbacks (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:5503:13)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at commitClassCallbacks (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:9490:13)\n    at commitLayoutEffectOnFiber (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:9958:27)"}
+[2026-06-25T11:16:18.158Z] {"timestamp":1782386178027,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Facilities.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:16:18.158Z] {"timestamp":1782386178031,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:16:18.158Z] {"timestamp":1782386178033,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:16:22.167Z] {"timestamp":1782386180517,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Facilities.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:16:22.167Z] {"timestamp":1782386180520,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:16:22.167Z] {"timestamp":1782386180521,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:16:22.167Z] {"timestamp":1782386181338,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Facilities.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:16:22.167Z] {"timestamp":1782386181578,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:16:22.167Z] {"timestamp":1782386181578,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:16:24.166Z] {"timestamp":1782386183040,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Facilities.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:16:24.166Z] {"timestamp":1782386183190,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:16:24.166Z] {"timestamp":1782386183190,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:16:28.201Z] {"timestamp":1782386187790,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Facilities.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:16:28.201Z] {"timestamp":1782386187972,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:16:28.201Z] {"timestamp":1782386187973,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:16:30.236Z] {"timestamp":1782386189965,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:16:30.236Z] {"timestamp":1782386189965,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:16:38.888Z] {"timestamp":1782386196872,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T11:16:38.888Z] {"timestamp":1782386196918,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T11:16:38.888Z] {"timestamp":1782386197069,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-25T11:17:13.306Z] {"timestamp":1782386232950,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/contact.tsx"],"stack":null}
+[2026-06-25T11:17:13.306Z] {"timestamp":1782386232950,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:17:23.167Z] {"timestamp":1782386241996,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/contact.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:17:23.167Z] {"timestamp":1782386242051,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/contact.tsx"],"stack":null}
+[2026-06-25T11:17:23.167Z] {"timestamp":1782386242051,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:17:25.168Z] {"timestamp":1782386244954,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/contact.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:17:25.168Z] {"timestamp":1782386244965,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/contact.tsx"],"stack":null}
+[2026-06-25T11:17:25.168Z] {"timestamp":1782386244965,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:17:29.175Z] {"timestamp":1782386247339,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/contact.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:17:29.175Z] {"timestamp":1782386247371,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/contact.tsx"],"stack":null}
+[2026-06-25T11:17:29.175Z] {"timestamp":1782386247372,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:17:51.443Z] {"timestamp":1782386270308,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/contact.tsx"],"stack":null}
+[2026-06-25T11:17:51.443Z] {"timestamp":1782386270309,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:20:07.099Z] {"timestamp":1782386406239,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/contact.tsx"],"stack":null}
+[2026-06-25T11:20:07.099Z] {"timestamp":1782386406239,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:20:22.334Z] {"timestamp":1782386420317,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T11:20:22.334Z] {"timestamp":1782386420377,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T11:20:22.334Z] {"timestamp":1782386420599,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-25T11:23:46.326Z] {"timestamp":1782386625750,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/contact.tsx"],"stack":null}
+[2026-06-25T11:23:46.326Z] {"timestamp":1782386625750,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:23:46.326Z] {"timestamp":1782386625875,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/contact.tsx"],"stack":null}
+[2026-06-25T11:23:46.326Z] {"timestamp":1782386625875,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:26:06.811Z] {"timestamp":1782386763660,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:27:09.341Z] {"timestamp":1782386828579,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/contact.tsx"],"stack":null}
+[2026-06-25T11:27:09.341Z] {"timestamp":1782386828584,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:27:16.858Z] {"timestamp":1782386834844,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T11:27:16.858Z] {"timestamp":1782386835102,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T11:27:16.858Z] {"timestamp":1782386835318,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-25T11:27:43.176Z] {"timestamp":1782386862913,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/contact.tsx"],"stack":null}
+[2026-06-25T11:27:43.176Z] {"timestamp":1782386862914,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873527,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873555,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873592,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873625,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873657,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873691,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873723,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873757,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873790,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873822,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873857,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873892,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873923,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873957,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386873991,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874024,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874058,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874088,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874124,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874157,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874191,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874218,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874250,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874284,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874318,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874350,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874383,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874416,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874449,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874482,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874516,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874547,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874581,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874615,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874646,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874680,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874713,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874746,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874779,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874812,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:54.857Z] {"timestamp":1782386874845,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386874878,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386874910,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386874945,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386874977,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875009,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875043,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875076,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875109,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875142,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875175,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875208,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875241,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875274,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875307,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875340,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875373,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875406,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875439,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875473,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875505,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875538,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:27:56.853Z] {"timestamp":1782386875574,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:30:01.596Z] {"timestamp":1782387001568,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Admissions.tsx"],"stack":null}
+[2026-06-25T11:30:01.596Z] {"timestamp":1782387001568,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:31:55.393Z] {"timestamp":1782387112666,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:31:55.393Z] {"timestamp":1782387112667,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:31:55.393Z] {"timestamp":1782387113240,"level":"ERROR","args":["%o\n\n%s\n\n%s\n",{"type":"Error","message":"Search is not defined","stack":"ReferenceError: Search is not defined\n    at Facilities (http://localhost:3000/src/pages/Facilities.tsx?t=1782387111256:435:34)\n    at Object.react_stack_bottom_frame (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:18509:20)\n    at renderWithHooks (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:5654:24)\n    at updateFunctionComponent (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7475:21)\n    at beginWork (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:8525:20)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at performUnitOfWork (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12561:98)\n    at workLoopSync (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12424:43)\n    at renderRootSync (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12408:13)\n    at performWorkOnRoot (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:11827:37)"},"The above error occurred in the <Facilities> component.","React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary."],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at defaultOnCaughtError (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7001:19)\n    at logCaughtError (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7033:11)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at update.callback (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:7066:13)\n    at callCallback (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:5491:18)\n    at commitCallbacks (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:5503:13)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at commitClassCallbacks (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:9490:13)\n    at commitLayoutEffectOnFiber (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:9958:27)"}
+[2026-06-25T11:33:34.884Z] {"timestamp":1782387213245,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-25T11:33:34.884Z] {"timestamp":1782387213245,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:33:52.858Z] {"timestamp":1782387232496,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:52.858Z] {"timestamp":1782387232526,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:33:52.858Z] {"timestamp":1782387232561,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:52.858Z] {"timestamp":1782387232594,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:52.858Z] {"timestamp":1782387232627,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:52.858Z] {"timestamp":1782387232660,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:52.858Z] {"timestamp":1782387232693,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:52.858Z] {"timestamp":1782387232726,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:52.858Z] {"timestamp":1782387232759,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:52.858Z] {"timestamp":1782387232791,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:52.858Z] {"timestamp":1782387232825,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387232858,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387232890,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387232924,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387232957,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387232990,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233023,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233056,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233090,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233122,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233154,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233187,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233220,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233254,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233288,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233319,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233353,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233387,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233419,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233451,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233484,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233518,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233552,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233586,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233618,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233654,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233686,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233720,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233752,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233785,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233820,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233852,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233881,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233913,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233950,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387233984,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387234013,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387234045,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387234079,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387234113,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387234145,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387234178,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387234211,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387234245,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387234278,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.860Z] {"timestamp":1782387234309,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:33:54.861Z] {"timestamp":1782387234343,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:10.872Z] {"timestamp":1782387729544,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:42:10.872Z] {"timestamp":1782387729545,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:42:10.872Z] {"timestamp":1782387730064,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:42:10.872Z] {"timestamp":1782387730064,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764410,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764425,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764464,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764495,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764529,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764563,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764594,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764628,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764661,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764695,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764725,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764758,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764790,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:44.858Z] {"timestamp":1782387764824,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387764856,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387764889,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387764922,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387764955,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387764988,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765022,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765053,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765086,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765120,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765153,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765186,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765219,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765253,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765285,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765318,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765350,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765384,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765417,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765450,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765483,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765516,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765549,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765583,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765614,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765647,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765682,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765714,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765746,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765780,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765813,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765847,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765880,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765912,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765945,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387765978,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766011,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766044,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766078,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766111,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766145,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766179,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766212,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766245,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766276,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766309,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766341,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766374,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766406,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:42:46.860Z] {"timestamp":1782387766439,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:45:36.318Z] {"timestamp":1782387931731,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:45:36.318Z] {"timestamp":1782387931733,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:45:36.318Z] {"timestamp":1782387931758,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:45:36.318Z] {"timestamp":1782387931758,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:46:39.198Z] {"timestamp":1782387997734,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:46:39.198Z] {"timestamp":1782387997734,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:47:12.993Z] {"timestamp":1782388032628,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:47:12.993Z] {"timestamp":1782388032628,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:47:14.859Z] {"timestamp":1782388033306,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:47:14.859Z] {"timestamp":1782388033306,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:48:45.179Z] {"timestamp":1782388124311,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:48:45.179Z] {"timestamp":1782388124311,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:48:51.016Z] {"timestamp":1782388127920,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:48:51.016Z] {"timestamp":1782388127920,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:48:51.016Z] {"timestamp":1782388130885,"level":"ERROR","args":["An empty string (\"\") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string.","src","src"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at setProp (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:14205:39)\n    at updateProperties (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:15029:21)\n    at commitUpdate (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:15888:9)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at commitHostUpdate (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:9671:11)\n    at commitMutationEffectsOnFiber (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:10562:115)\n    at recursivelyTraverseMutationEffects (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:10396:13)\n    at commitMutationEffectsOnFiber (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:10547:13)\n    at recursivelyTraverseMutationEffects (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:10396:13)"}
+[2026-06-25T11:49:02.536Z] {"timestamp":1782388138115,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:49:02.537Z] {"timestamp":1782388138116,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:51:35.631Z] {"timestamp":1782388288370,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:51:35.631Z] {"timestamp":1782388288370,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:51:35.631Z] {"timestamp":1782388288414,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:51:35.631Z] {"timestamp":1782388288414,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:51:35.631Z] {"timestamp":1782388291424,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:51:35.631Z] {"timestamp":1782388291424,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:53:37.178Z] {"timestamp":1782388405208,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:53:37.178Z] {"timestamp":1782388405208,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:53:37.178Z] {"timestamp":1782388409077,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:53:37.178Z] {"timestamp":1782388409077,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:53:37.178Z] {"timestamp":1782388413195,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:53:37.178Z] {"timestamp":1782388413195,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:53:52.178Z] {"timestamp":1782388417916,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:53:52.178Z] {"timestamp":1782388417916,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:53:52.178Z] {"timestamp":1782388424374,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:53:52.178Z] {"timestamp":1782388424374,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:53:52.178Z] {"timestamp":1782388429484,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:53:52.178Z] {"timestamp":1782388429485,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:53:52.178Z] {"timestamp":1782388429564,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:53:52.178Z] {"timestamp":1782388429564,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:55:26.762Z] {"timestamp":1782388521021,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:55:26.762Z] {"timestamp":1782388521021,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:55:26.762Z] {"timestamp":1782388521799,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:55:26.762Z] {"timestamp":1782388521799,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:55:26.762Z] {"timestamp":1782388522218,"level":"ERROR","args":["An empty string (\"\") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string.","src","src"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at setProp (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:14205:39)\n    at updateProperties (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:15029:21)\n    at commitUpdate (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:15888:9)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at commitHostUpdate (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:9671:11)\n    at commitMutationEffectsOnFiber (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:10562:115)\n    at recursivelyTraverseMutationEffects (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:10396:13)\n    at commitMutationEffectsOnFiber (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:10547:13)\n    at recursivelyTraverseMutationEffects (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:10396:13)"}
+[2026-06-25T11:55:26.762Z] {"timestamp":1782388523113,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:55:26.762Z] {"timestamp":1782388523114,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:56:55.569Z] {"timestamp":1782388614495,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:56:55.569Z] {"timestamp":1782388614495,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:57:03.470Z] {"timestamp":1782388621458,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-25T11:57:03.470Z] {"timestamp":1782388621573,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-25T11:57:03.470Z] {"timestamp":1782388621742,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-25T11:57:03.470Z] {"timestamp":1782388621856,"level":"ERROR","args":["An empty string (\"\") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string.","src","src"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at setProp (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:14205:39)\n    at setInitialProperties (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:14590:23)\n    at completeWork (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:9077:28)\n    at runWithFiberInDEV (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:997:72)\n    at completeUnitOfWork (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12669:22)\n    at performUnitOfWork (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12575:29)\n    at workLoopSync (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12424:43)\n    at renderRootSync (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:12408:13)\n    at performWorkOnRoot (http://localhost:3000/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=8092be18:11766:189)"}
+[2026-06-25T11:57:46.809Z] {"timestamp":1782388665453,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:57:46.809Z] {"timestamp":1782388665453,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:58:32.687Z] {"timestamp":1782388711564,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:58:32.687Z] {"timestamp":1782388711576,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:58:32.687Z] {"timestamp":1782388711576,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:58:34.209Z] {"timestamp":1782388713497,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:58:34.209Z] {"timestamp":1782388713509,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:58:34.209Z] {"timestamp":1782388713509,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:58:42.410Z] {"timestamp":1782388720678,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-06-25T11:58:42.410Z] {"timestamp":1782388720692,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:58:42.410Z] {"timestamp":1782388720692,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:58:46.269Z] {"timestamp":1782388724288,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:58:46.269Z] {"timestamp":1782388724289,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:58:52.546Z] {"timestamp":1782388732073,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:58:52.546Z] {"timestamp":1782388732073,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:58:56.187Z] {"timestamp":1782388735957,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-25T11:58:56.187Z] {"timestamp":1782388735958,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388788751,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388788774,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388788810,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388788844,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388788875,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388788909,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388788941,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388788974,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789007,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789041,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789073,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789106,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789140,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789172,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789206,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789238,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789271,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789304,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789339,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789370,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789404,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:49.472Z] {"timestamp":1782388789437,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789471,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789503,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789535,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789568,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789601,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789634,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789667,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789701,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789734,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789767,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789800,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789832,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789866,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789899,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789932,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789966,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388789998,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790031,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790066,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790100,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790133,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790168,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790198,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790231,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790265,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790297,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790328,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790360,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790402,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790426,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790459,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790493,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790525,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790559,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790591,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790624,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790657,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790690,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790723,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790756,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T11:59:51.471Z] {"timestamp":1782388790791,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:13.890Z] {"timestamp":1782388812917,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-25T12:00:13.891Z] {"timestamp":1782388812918,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T12:00:13.891Z] {"timestamp":1782388813835,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:13.891Z] {"timestamp":1782388813853,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388813890,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388813921,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388813954,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388813990,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814020,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814053,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814087,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814120,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814152,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814186,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814218,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814251,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814284,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814317,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814350,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814385,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814419,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814450,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814484,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814516,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814549,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814582,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814613,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814648,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814681,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814715,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814749,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814780,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814814,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814845,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814877,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814915,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814945,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388814976,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815010,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815043,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815076,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815109,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815142,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815175,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815208,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815240,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815274,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815306,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815340,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815372,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815406,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:15.475Z] {"timestamp":1782388815439,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:17.471Z] {"timestamp":1782388815475,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:17.471Z] {"timestamp":1782388815505,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:17.471Z] {"timestamp":1782388815539,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:17.471Z] {"timestamp":1782388815571,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:17.472Z] {"timestamp":1782388815604,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:17.472Z] {"timestamp":1782388815637,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:17.472Z] {"timestamp":1782388815671,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:17.472Z] {"timestamp":1782388815703,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:17.472Z] {"timestamp":1782388815735,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:17.472Z] {"timestamp":1782388815768,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:17.472Z] {"timestamp":1782388815802,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:17.472Z] {"timestamp":1782388815834,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:00:17.472Z] {"timestamp":1782388815868,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-25T12:02:59.467Z] {"timestamp":1782388979144,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T12:02:59.467Z] {"timestamp":1782388979147,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Navigation.tsx"],"stack":null}
+[2026-06-25T12:02:59.467Z] {"timestamp":1782388979246,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-25T12:02:59.467Z] {"timestamp":1782388979246,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Navigation.tsx"],"stack":null}
