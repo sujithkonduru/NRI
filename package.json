@@ -5,15 +5,17 @@
   "license": "MIT",
  
   
+ 
   "scripts": {
-    "dev": "cross-env NODE_ENV=development tsx watch server/_core/index.ts",
+    "prebuild": "chmod +x node_modules/.bin/vite || true",
     "build": "vite build",
     "build:server": "esbuild server/_core/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
     "build:all": "vite build && esbuild server/_core/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
     "start": "NODE_ENV=production node dist/index.js",
-    "vercel-build": "vite build",
-    "prebuild": "npm install --legacy-peer-deps"
-  },
+    "vercel-build": "npm run build",
+    "dev": "cross-env NODE_ENV=development tsx watch server/_core/index.ts"
+  }
+,
 
 
   "dependencies": {
