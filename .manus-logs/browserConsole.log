@@ -987,3 +987,4 @@
 [2026-06-25T12:02:59.467Z] {"timestamp":1782388979147,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Navigation.tsx"],"stack":null}
 [2026-06-25T12:02:59.467Z] {"timestamp":1782388979246,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
 [2026-06-25T12:02:59.467Z] {"timestamp":1782388979246,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Navigation.tsx"],"stack":null}
+[2026-06-25T13:06:07.267Z] {"timestamp":1782390013614,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
