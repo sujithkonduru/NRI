@@ -10,7 +10,7 @@ import About from "./pages/About";
 import Academics from "./pages/Academics";
 import Admissions from "./pages/Admissions";
 import Facilities from "./pages/Facilities";
-import Contact from "./pages/Contact.tsx";
+import Contact from "./pages/Contact";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
