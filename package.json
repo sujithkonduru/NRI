@@ -5,11 +5,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development tsx watch server/_core/index.ts",
-    "build": "npx vite build",
+    "build": "vite build",
     "build:server": "esbuild server/_core/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
     "build:all": "npx vite build && esbuild server/_core/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
     "start": "NODE_ENV=production node dist/index.js",
-    "vercel-build": "npx vite build",
+    "vercel-build": "vite build",
     "check": "tsc --noEmit",
     "format": "prettier --write .",
     "test": "vitest run",
