@@ -62,7 +62,7 @@ export default function Contact() {
       name: "Priya Sharma",
       role: "Parent",
       content: "The admission process was so smooth and the staff was incredibly helpful. My daughter loves her new school!",
-      rating: 5,
+      rating: 4,
       color: "from-pink-500 to-rose-500",
     },
     {
