@@ -988,3 +988,469 @@
 [2026-06-25T12:02:59.467Z] {"timestamp":1782388979246,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
 [2026-06-25T12:02:59.467Z] {"timestamp":1782388979246,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Navigation.tsx"],"stack":null}
 [2026-06-25T13:06:07.267Z] {"timestamp":1782390013614,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-06-26T06:35:28.377Z] {"timestamp":1782455713997,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-26T06:35:28.377Z] {"timestamp":1782455714022,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-26T06:35:34.002Z] {"timestamp":1782455732844,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-26T06:36:54.978Z] {"timestamp":1782455803389,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Navigation.tsx"],"stack":null}
+[2026-06-26T06:36:54.978Z] {"timestamp":1782455803389,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:36:54.978Z] {"timestamp":1782455805255,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Navigation.tsx"],"stack":null}
+[2026-06-26T06:36:54.978Z] {"timestamp":1782455805255,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:36:54.978Z] {"timestamp":1782455808036,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Navigation.tsx"],"stack":null}
+[2026-06-26T06:36:54.978Z] {"timestamp":1782455808036,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:36:54.978Z] {"timestamp":1782455810101,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Navigation.tsx"],"stack":null}
+[2026-06-26T06:36:54.978Z] {"timestamp":1782455810102,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:36:54.978Z] {"timestamp":1782455814096,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Navigation.tsx"],"stack":null}
+[2026-06-26T06:36:54.978Z] {"timestamp":1782455814096,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:37:06.051Z] {"timestamp":1782455825718,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Navigation.tsx"],"stack":null}
+[2026-06-26T06:37:06.051Z] {"timestamp":1782455825719,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:37:58.050Z] {"timestamp":1782455876930,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Navigation.tsx"],"stack":null}
+[2026-06-26T06:37:58.050Z] {"timestamp":1782455876931,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:38:16.072Z] {"timestamp":1782455895071,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Navigation.tsx"],"stack":null}
+[2026-06-26T06:38:16.072Z] {"timestamp":1782455895071,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:39:02.045Z] {"timestamp":1782455940915,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T06:39:02.046Z] {"timestamp":1782455940915,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:39:02.046Z] {"timestamp":1782455940964,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T06:39:02.046Z] {"timestamp":1782455940964,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:39:02.046Z] {"timestamp":1782455941117,"level":"ERROR","args":["%o\n\n%s\n\n%s\n",{"type":"Error","message":"Arrow is not defined","stack":"ReferenceError: Arrow is not defined\n    at Home (http://localhost:3001/src/pages/Home.tsx?t=1782455939471:238:42)\n    at Object.react_stack_bottom_frame (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:18509:20)\n    at renderWithHooks (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:5654:24)\n    at updateFunctionComponent (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:7475:21)\n    at beginWork (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:8525:20)\n    at runWithFiberInDEV (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:997:72)\n    at performUnitOfWork (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:12561:98)\n    at workLoopSync (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:12424:43)\n    at renderRootSync (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:12408:13)\n    at performWorkOnRoot (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:11827:37)"},"The above error occurred in the <Home> component.","React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary."],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at defaultOnCaughtError (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:7001:19)\n    at logCaughtError (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:7033:11)\n    at runWithFiberInDEV (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:997:72)\n    at update.callback (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:7066:13)\n    at callCallback (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:5491:18)\n    at commitCallbacks (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:5503:13)\n    at runWithFiberInDEV (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:997:72)\n    at commitClassCallbacks (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:9490:13)\n    at commitLayoutEffectOnFiber (http://localhost:3001/@fs/D:/STACKENZO%20WEBSITE/lemon-tree-tirupati-frontend-school/node_modules/.vite/deps/react-dom_client.js?v=110d62b0:9958:27)"}
+[2026-06-26T06:39:05.200Z] {"timestamp":1782455942519,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T06:39:05.200Z] {"timestamp":1782455942519,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:40:48.084Z] {"timestamp":1782456047178,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T06:40:48.084Z] {"timestamp":1782456047178,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:40:50.482Z] {"timestamp":1782456049128,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T06:40:50.482Z] {"timestamp":1782456049128,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:41:02.017Z] {"timestamp":1782456061902,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T06:41:02.017Z] {"timestamp":1782456061902,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:47:48.498Z] {"timestamp":1782456467690,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-06-26T06:47:48.498Z] {"timestamp":1782456467691,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:49:58.531Z] {"timestamp":1782456596404,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-06-26T06:49:58.531Z] {"timestamp":1782456596407,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:53:48.821Z] {"timestamp":1782456826660,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-06-26T06:53:48.821Z] {"timestamp":1782456826660,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851565,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851577,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851616,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851652,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851678,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851716,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851748,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851777,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851819,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851853,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851884,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851916,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851949,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:12.002Z] {"timestamp":1782456851978,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852015,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852049,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852077,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852109,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852141,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852173,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852216,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852249,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852282,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852315,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852350,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852380,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852411,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852452,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852478,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852503,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852541,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852573,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852602,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852636,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852679,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852713,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852743,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852779,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852811,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852843,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852874,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852913,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.001Z] {"timestamp":1782456852933,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456852966,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853000,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853033,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853065,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853099,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853131,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853165,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853198,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853233,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853265,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853298,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853331,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853365,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853398,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853431,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853465,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853497,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853531,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853564,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:54:14.002Z] {"timestamp":1782456853598,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:30.025Z] {"timestamp":1782456986924,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-26T06:56:30.025Z] {"timestamp":1782456986925,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:56:48.004Z] {"timestamp":1782457007721,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:48.004Z] {"timestamp":1782457007751,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-26T06:56:48.004Z] {"timestamp":1782457007786,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:48.004Z] {"timestamp":1782457007826,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:48.004Z] {"timestamp":1782457007864,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:48.004Z] {"timestamp":1782457007894,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:48.004Z] {"timestamp":1782457007925,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:48.004Z] {"timestamp":1782457007957,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:48.004Z] {"timestamp":1782457007989,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008020,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008052,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008085,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008130,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008164,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008181,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008225,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008247,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008280,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008314,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008347,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008381,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008413,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008447,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008481,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008513,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008547,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008582,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008615,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008647,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008680,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008709,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008749,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008781,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008814,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008848,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008882,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008913,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008947,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457008977,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009012,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009042,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009076,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009108,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009142,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009174,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009212,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009247,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009282,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009314,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009337,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009380,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009415,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009449,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009481,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009514,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009539,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009568,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009601,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009635,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009668,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009699,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009734,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:56:50.002Z] {"timestamp":1782457009768,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:48.601Z] {"timestamp":1782457186431,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-06-26T06:59:48.601Z] {"timestamp":1782457186431,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T06:59:56.006Z] {"timestamp":1782457195666,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:56.006Z] {"timestamp":1782457195687,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-26T06:59:56.006Z] {"timestamp":1782457195725,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:56.006Z] {"timestamp":1782457195759,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:56.006Z] {"timestamp":1782457195795,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:56.006Z] {"timestamp":1782457195824,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:56.006Z] {"timestamp":1782457195855,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:56.006Z] {"timestamp":1782457195889,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:56.006Z] {"timestamp":1782457195923,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:56.006Z] {"timestamp":1782457195960,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:56.006Z] {"timestamp":1782457195991,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196025,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196060,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196091,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196123,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196161,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196190,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196224,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196258,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196295,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196325,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196359,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196389,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196428,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196461,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196496,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196525,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196548,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196581,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196615,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196645,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196683,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196712,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196746,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196780,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196813,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196847,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196880,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196913,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196947,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457196980,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197013,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197046,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197075,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197113,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197142,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197178,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197211,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197247,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197275,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197312,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197341,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197378,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197414,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197445,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197479,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T06:59:58.016Z] {"timestamp":1782457197512,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204112,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204128,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204163,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204207,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204228,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204263,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204299,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204329,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204364,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204395,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204431,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204464,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204497,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204531,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204563,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204596,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204631,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204664,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204697,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204730,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204761,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204796,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204828,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204862,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204895,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204930,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204962,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457204996,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205029,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205062,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205096,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205131,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205164,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205195,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205229,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205262,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205296,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205328,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205363,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205397,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205432,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205464,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205499,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205516,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205552,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205582,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205615,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205648,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205681,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205714,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205748,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205781,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205815,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205850,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205880,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205915,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205950,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:05.999Z] {"timestamp":1782457205981,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:08.053Z] {"timestamp":1782457206012,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:08.053Z] {"timestamp":1782457206047,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:08.053Z] {"timestamp":1782457206079,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:08.053Z] {"timestamp":1782457206112,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:00:08.053Z] {"timestamp":1782457206146,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:17.217Z] {"timestamp":1782457334053,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Academics.tsx"],"stack":null}
+[2026-06-26T07:02:17.217Z] {"timestamp":1782457334053,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:02:17.217Z] {"timestamp":1782457335217,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:17.217Z] {"timestamp":1782457335435,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-26T07:02:17.217Z] {"timestamp":1782457336054,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:18.005Z] {"timestamp":1782457337213,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:18.005Z] {"timestamp":1782457337305,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:18.005Z] {"timestamp":1782457337338,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:18.005Z] {"timestamp":1782457337359,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:18.005Z] {"timestamp":1782457337398,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:18.005Z] {"timestamp":1782457337429,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:18.006Z] {"timestamp":1782457337460,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361346,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361354,"level":"LOG","args":["Active Tab changed to:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361391,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361425,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361455,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361493,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361525,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361560,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361592,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361625,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361656,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361690,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361723,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361757,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361790,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361824,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361860,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361890,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361925,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361959,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:42.006Z] {"timestamp":1782457361992,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362026,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362057,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362090,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362125,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362157,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362190,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362225,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362260,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362295,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362314,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362357,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362390,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362420,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362458,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362481,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362511,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362549,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362579,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362617,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362642,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362675,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362709,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362743,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362776,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362810,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362844,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362878,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362911,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362945,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457362978,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457363011,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457363046,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457363082,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457363111,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457363144,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457363180,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457363211,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457363243,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457363276,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457363302,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457363339,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:02:44.015Z] {"timestamp":1782457363376,"level":"LOG","args":["Rendering tab:","programs"],"stack":null}
+[2026-06-26T07:04:57.012Z] {"timestamp":1782457494079,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Admissions.tsx"],"stack":null}
+[2026-06-26T07:04:57.012Z] {"timestamp":1782457494079,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:06:51.644Z] {"timestamp":1782457606567,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Facilities.tsx"],"stack":null}
+[2026-06-26T07:06:51.644Z] {"timestamp":1782457606571,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:09:23.295Z] {"timestamp":1782457760931,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Contact.tsx"],"stack":null}
+[2026-06-26T07:09:23.295Z] {"timestamp":1782457760931,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:10:50.161Z] {"timestamp":1782457848542,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:10:50.161Z] {"timestamp":1782457848542,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:12:06.074Z] {"timestamp":1782457924536,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:12:06.074Z] {"timestamp":1782457924536,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:12:39.848Z] {"timestamp":1782457942696,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:12:39.848Z] {"timestamp":1782457942697,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:12:39.848Z] {"timestamp":1782457949972,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:12:39.848Z] {"timestamp":1782457949972,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:12:39.848Z] {"timestamp":1782457952929,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:12:39.848Z] {"timestamp":1782457952929,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:13:36.177Z] {"timestamp":1782457960908,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:13:36.177Z] {"timestamp":1782457960908,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:13:36.177Z] {"timestamp":1782457961494,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:13:36.177Z] {"timestamp":1782457961494,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:13:36.177Z] {"timestamp":1782457963156,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:13:36.177Z] {"timestamp":1782457963157,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:13:36.177Z] {"timestamp":1782457963218,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:13:36.177Z] {"timestamp":1782457963218,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:13:36.177Z] {"timestamp":1782457973512,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:13:36.177Z] {"timestamp":1782457973512,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458035552,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458035552,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458046556,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458046557,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458047872,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458047872,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458048858,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458048859,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458048927,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458048927,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458048979,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458048979,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458056702,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3001/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3001/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3001/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3001/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3001/@vite/client:838:4)"}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458056752,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458056753,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458057243,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3001/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3001/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3001/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3001/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3001/@vite/client:838:4)"}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458057253,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458057253,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458072194,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3001/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3001/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3001/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3001/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3001/@vite/client:838:4)"}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458072210,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:14:36.115Z] {"timestamp":1782458072210,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:15:47.916Z] {"timestamp":1782458095275,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3001/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3001/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3001/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3001/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3001/@vite/client:838:4)"}
+[2026-06-26T07:15:47.916Z] {"timestamp":1782458095305,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:15:47.916Z] {"timestamp":1782458095305,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:15:47.916Z] {"timestamp":1782458112695,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3001/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3001/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3001/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3001/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3001/@vite/client:838:4)"}
+[2026-06-26T07:15:47.916Z] {"timestamp":1782458112700,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:15:47.916Z] {"timestamp":1782458112700,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:15:47.916Z] {"timestamp":1782458118024,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3001/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3001/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3001/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3001/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3001/@vite/client:838:4)"}
+[2026-06-26T07:15:47.916Z] {"timestamp":1782458118612,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:15:47.916Z] {"timestamp":1782458118612,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:16:37.750Z] {"timestamp":1782458175675,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3001/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3001/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3001/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3001/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3001/@vite/client:838:4)"}
+[2026-06-26T07:16:37.750Z] {"timestamp":1782458175689,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:16:37.750Z] {"timestamp":1782458175691,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:16:37.750Z] {"timestamp":1782458181019,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3001/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3001/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3001/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3001/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3001/@vite/client:838:4)"}
+[2026-06-26T07:16:37.750Z] {"timestamp":1782458181085,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:16:37.750Z] {"timestamp":1782458181086,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:16:37.750Z] {"timestamp":1782458195168,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3001/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3001/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3001/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3001/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3001/@vite/client:838:4)"}
+[2026-06-26T07:16:37.750Z] {"timestamp":1782458195194,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:16:37.750Z] {"timestamp":1782458195194,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:17:36.247Z] {"timestamp":1782458236906,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3001/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3001/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3001/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3001/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3001/@vite/client:838:4)"}
+[2026-06-26T07:17:36.247Z] {"timestamp":1782458236915,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:17:36.247Z] {"timestamp":1782458236915,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:17:36.247Z] {"timestamp":1782458247239,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3001/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3001/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3001/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3001/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3001/@vite/client:838:4)"}
+[2026-06-26T07:17:36.247Z] {"timestamp":1782458247243,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:17:36.247Z] {"timestamp":1782458247243,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:17:36.247Z] {"timestamp":1782458247720,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3001/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3001/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3001/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3001/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3001/@vite/client:838:4)"}
+[2026-06-26T07:17:36.247Z] {"timestamp":1782458247903,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:17:36.247Z] {"timestamp":1782458247903,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:18:37.641Z] {"timestamp":1782458310451,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3001/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3001/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3001/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3001/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3001/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3001/@vite/client:838:4)"}
+[2026-06-26T07:18:37.641Z] {"timestamp":1782458310525,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:18:37.641Z] {"timestamp":1782458310525,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:22:12.426Z] {"timestamp":1782458474448,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:22:12.426Z] {"timestamp":1782458474449,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:22:12.426Z] {"timestamp":1782458499034,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:22:12.426Z] {"timestamp":1782458499037,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:22:12.426Z] {"timestamp":1782458499422,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:22:12.426Z] {"timestamp":1782458499422,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:22:12.426Z] {"timestamp":1782458511084,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:22:12.426Z] {"timestamp":1782458511084,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:22:12.426Z] {"timestamp":1782458511486,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:22:12.426Z] {"timestamp":1782458511486,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:22:12.426Z] {"timestamp":1782458530463,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-06-26T07:22:12.426Z] {"timestamp":1782458530464,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:22:23.801Z] {"timestamp":1782458541784,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-26T07:22:23.801Z] {"timestamp":1782458541868,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-26T07:22:23.801Z] {"timestamp":1782458542101,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-26T07:22:34.661Z] {"timestamp":1782458552654,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-26T07:22:34.661Z] {"timestamp":1782458552664,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-26T07:22:34.661Z] {"timestamp":1782458552816,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-26T07:24:14.180Z] {"timestamp":1782458643657,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-06-26T07:24:14.180Z] {"timestamp":1782458643658,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:24:14.180Z] {"timestamp":1782458648752,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-06-26T07:24:14.180Z] {"timestamp":1782458648752,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:24:14.660Z] {"timestamp":1782458654204,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-06-26T07:24:14.660Z] {"timestamp":1782458654204,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-26T07:26:06.663Z] {"timestamp":1782458764725,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-06-26T07:26:06.663Z] {"timestamp":1782458764725,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}

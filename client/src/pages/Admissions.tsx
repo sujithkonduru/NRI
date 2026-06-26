@@ -31,6 +31,9 @@ import {
   Gift,
   TrendingUp,
   Smile,
+  Medal,
+  UsersRound,
+  School,
 } from "lucide-react";
 
 export default function Admissions() {
@@ -46,7 +49,12 @@ export default function Admissions() {
   const [errors, setErrors] = useState({});
   const [focusedField, setFocusedField] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
+  const [hoveredCard, setHoveredCard] = useState(null);
   const sectionRef = useRef(null);
+
+  const handleNavigation = (path) => {
+    window.location.href = path;
+  };
 
   // Intersection Observer for animations
   useEffect(() => {
@@ -167,9 +175,9 @@ export default function Admissions() {
   ];
 
   const feeStructure = [
-    { grade: "Primary (1-5)", fee: "₹85,000", perYear: true, color: "from-blue-500 to-blue-600" },
-    { grade: "Middle (6-8)", fee: "₹95,000", perYear: true, color: "from-purple-500 to-purple-600" },
-    { grade: "High (9-10)", fee: "₹110,000", perYear: true, color: "from-green-500 to-green-600" },
+    { grade: "Primary (1-5)", fee: "₹85,000", perYear: true, color: "from-blue-500 to-cyan-500" },
+    { grade: "Middle (6-8)", fee: "₹95,000", perYear: true, color: "from-purple-500 to-pink-500" },
+    { grade: "High (9-10)", fee: "₹110,000", perYear: true, color: "from-green-500 to-emerald-500" },
   ];
 
   const documents = [
@@ -182,18 +190,29 @@ export default function Admissions() {
   ];
 
   const quickStats = [
-    { icon: Users, label: "Students Enrolled", value: "5000+", color: "text-blue-600", bgColor: "bg-blue-100" },
-    { icon: Award, label: "Scholarships", value: "100+", color: "text-yellow-600", bgColor: "bg-yellow-100" },
-    { icon: Star, label: "Satisfaction Rate", value: "98%", color: "text-green-600", bgColor: "bg-green-100" },
-    { icon: Heart, label: "Happy Parents", value: "95%", color: "text-pink-600", bgColor: "bg-pink-100" },
+    { icon: Users, label: "Students Enrolled", value: "5000+", color: "from-blue-400 to-cyan-500" },
+    { icon: Award, label: "Scholarships", value: "100+", color: "from-yellow-400 to-amber-500" },
+    { icon: Star, label: "Satisfaction Rate", value: "98%", color: "from-green-400 to-emerald-500" },
+    { icon: Heart, label: "Happy Parents", value: "95%", color: "from-pink-400 to-rose-500" },
   ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 overflow-x-hidden">
       <Navigation />
 
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-600 via-green-600 to-teal-600 text-white py-20 sm:py-24 lg:py-28 overflow-hidden">
+      {/* Hero Section with Background Image */}
+      <section className="relative text-white py-20 sm:py-24 lg:py-28 overflow-hidden min-h-[550px] flex items-center">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1920&h=1080&fit=crop')`,
+          }}
+        />
+        {/* Dark Overlay with Gradient */}
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 via-green-900/80 to-teal-900/70" />
+        
+        {/* Decorative Elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-64 h-64 bg-white rounded-full -translate-x-1/2 -translate-y-1/2 animate-pulse-slow" />
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full translate-x-1/2 translate-y-1/2 animate-pulse-slow-delayed" />
@@ -204,9 +223,10 @@ export default function Admissions() {
             <div className="w-72 h-72 border-4 border-white/10 rounded-full animate-spin-slow-delayed" />
           </div>
         </div>
+
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fadeInUp">
-            <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/20 backdrop-blur-sm px-4 sm:px-6 py-2 rounded-full mb-4 sm:mb-6 animate-bounce-in">
+            <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/20 backdrop-blur-sm px-4 sm:px-6 py-2 rounded-full mb-4 sm:mb-6 animate-bounce-in border border-white/20">
               <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 animate-sparkle" />
               <span className="text-xs sm:text-sm font-medium">Admissions Open 2024-25</span>
             </div>
@@ -226,7 +246,7 @@ export default function Admissions() {
       {/* Quick Stats */}
       <section className="-mt-6 sm:-mt-8 relative z-10 px-4 sm:px-6">
         <div className="container mx-auto">
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+          <div className="bg-white/95 backdrop-blur-sm rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
             {quickStats.map((stat, i) => {
               const Icon = stat.icon;
               return (
@@ -234,13 +254,15 @@ export default function Admissions() {
                   key={i}
                   className="text-center group animate-on-scroll opacity-0 scale-95 transition-all duration-700"
                   style={{ transitionDelay: `${i * 100}ms` }}
+                  onMouseEnter={() => setHoveredCard(i)}
+                  onMouseLeave={() => setHoveredCard(null)}
                 >
-                  <div className="flex justify-center mb-1 sm:mb-2">
-                    <div className={`${stat.bgColor} p-2 sm:p-3 rounded-full group-hover:scale-110 transition-transform duration-300`}>
-                      <Icon className={`w-4 h-4 sm:w-5 sm:h-6 ${stat.color}`} />
-                    </div>
+                  <div className={`bg-gradient-to-r ${stat.color} w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center mx-auto mb-1 sm:mb-2 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                   </div>
-                  <div className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900">{stat.value}</div>
+                  <div className="text-base sm:text-lg md:text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                    {stat.value}
+                  </div>
                   <div className="text-[10px] sm:text-xs md:text-sm text-slate-500">{stat.label}</div>
                 </div>
               );
@@ -683,12 +705,18 @@ export default function Admissions() {
               Join Sri NRI High School and give your child the gift of quality education and a bright future.
             </p>
             <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4">
-              <button className="bg-white text-blue-600 hover:bg-gray-100 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 sm:gap-3">
+              <button 
+                onClick={() => handleNavigation("/admissions")}
+                className="bg-white text-blue-600 hover:bg-gray-100 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 sm:gap-3"
+              >
                 <GraduationCap className="w-5 h-5 sm:w-6 sm:h-6" />
                 Apply Now
                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
               </button>
-              <button className="border-2 border-white/50 hover:border-white text-white hover:bg-white/10 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg transition-all duration-300 hover:scale-105 backdrop-blur-sm flex items-center justify-center gap-2 sm:gap-3">
+              <button 
+                onClick={() => handleNavigation("/contact")}
+                className="border-2 border-white/50 hover:border-white text-white hover:bg-white/10 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg transition-all duration-300 hover:scale-105 backdrop-blur-sm flex items-center justify-center gap-2 sm:gap-3"
+              >
                 <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
                 Contact Admissions
               </button>

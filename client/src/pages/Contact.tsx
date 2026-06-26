@@ -39,6 +39,8 @@ import {
   AlertCircle,
   Check,
   X,
+  TrendingUp,
+  Medal,
 } from "lucide-react";
 
 export default function Contact() {
@@ -54,15 +56,20 @@ export default function Contact() {
   const [focusedField, setFocusedField] = useState(null);
   const [activeTestimonial, setActiveTestimonial] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
+  const [hoveredCard, setHoveredCard] = useState(null);
   const formRef = useRef(null);
   const sectionRef = useRef(null);
+
+  const handleNavigation = (path) => {
+    window.location.href = path;
+  };
 
   const testimonials = [
     {
       name: "Priya Sharma",
       role: "Parent",
       content: "The admission process was so smooth and the staff was incredibly helpful. My daughter loves her new school!",
-      rating: 4,
+      rating: 5,
       color: "from-pink-500 to-rose-500",
     },
     {
@@ -102,6 +109,31 @@ export default function Contact() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
+            entry.target.classList.add('animate-visible');
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    const animateElements = document.querySelectorAll('.animate-on-scroll');
+    animateElements.forEach((el) => {
+      observer.observe(el);
+    });
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
+  // CTA visibility
+  useEffect(() => {
+    const ctaObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
             setIsVisible(true);
           }
         });
@@ -109,11 +141,12 @@ export default function Contact() {
       { threshold: 0.1 }
     );
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+    const ctaElement = document.querySelector('.cta-section');
+    if (ctaElement) {
+      ctaObserver.observe(ctaElement);
     }
 
-    return () => observer.disconnect();
+    return () => ctaObserver.disconnect();
   }, []);
 
   const validateForm = () => {
@@ -131,7 +164,6 @@ export default function Contact() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
-    // Clear error when user starts typing
     if (errors[name]) {
       setErrors({ ...errors, [name]: "" });
     }
@@ -146,7 +178,6 @@ export default function Contact() {
     }
 
     setLoading(true);
-    // Simulate API call
     await new Promise(resolve => setTimeout(resolve, 2000));
     console.log("Contact form submitted:", formData);
     setSubmitted(true);
@@ -206,18 +237,29 @@ export default function Contact() {
   ];
 
   const quickStats = [
-    { icon: Users, label: "Happy Students", value: "5000+", color: "text-blue-600", bgColor: "bg-blue-100" },
-    { icon: Award, label: "Awards Won", value: "25+", color: "text-yellow-600", bgColor: "bg-yellow-100" },
-    { icon: Headphones, label: "Support Hours", value: "24/7", color: "text-green-600", bgColor: "bg-green-100" },
-    { icon: ThumbsUp, label: "Satisfaction Rate", value: "98%", color: "text-purple-600", bgColor: "bg-purple-100" },
+    { icon: Users, label: "Happy Students", value: "5000+", color: "from-blue-400 to-cyan-500" },
+    { icon: Award, label: "Awards Won", value: "25+", color: "from-yellow-400 to-amber-500" },
+    { icon: Headphones, label: "Support Hours", value: "24/7", color: "from-green-400 to-emerald-500" },
+    { icon: ThumbsUp, label: "Satisfaction Rate", value: "98%", color: "from-purple-400 to-pink-500" },
   ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 overflow-x-hidden">
       <Navigation />
 
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white py-20 sm:py-24 lg:py-28 overflow-hidden">
+      {/* Hero Section with Background Image */}
+      <section className="relative text-white py-20 sm:py-24 lg:py-28 overflow-hidden min-h-[550px] flex items-center">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=1920&h=1080&fit=crop')`,
+          }}
+        />
+        {/* Dark Overlay with Gradient */}
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 via-purple-900/80 to-pink-900/70" />
+        
+        {/* Decorative Elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-64 h-64 bg-white rounded-full -translate-x-1/2 -translate-y-1/2 animate-pulse-slow" />
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full translate-x-1/2 translate-y-1/2 animate-pulse-slow-delayed" />
@@ -228,9 +270,10 @@ export default function Contact() {
             <div className="w-72 h-72 border-4 border-white/10 rounded-full animate-spin-slow-delayed" />
           </div>
         </div>
+
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fadeInUp">
-            <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/20 backdrop-blur-sm px-4 sm:px-6 py-2 rounded-full mb-4 sm:mb-6 animate-bounce-in">
+            <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/20 backdrop-blur-sm px-4 sm:px-6 py-2 rounded-full mb-4 sm:mb-6 animate-bounce-in border border-white/20">
               <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 animate-sparkle" />
               <span className="text-xs sm:text-sm font-medium">We'd Love to Hear From You</span>
             </div>
@@ -250,7 +293,7 @@ export default function Contact() {
       {/* Quick Stats Section */}
       <section className="-mt-6 sm:-mt-8 relative z-10 px-4 sm:px-6">
         <div className="container mx-auto">
-          <div className="bg-white/90 backdrop-blur-sm rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+          <div className="bg-white/95 backdrop-blur-sm rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
             {quickStats.map((stat, i) => {
               const Icon = stat.icon;
               return (
@@ -258,13 +301,15 @@ export default function Contact() {
                   key={i}
                   className="text-center group animate-on-scroll opacity-0 scale-95 transition-all duration-700"
                   style={{ transitionDelay: `${i * 100}ms` }}
+                  onMouseEnter={() => setHoveredCard(i)}
+                  onMouseLeave={() => setHoveredCard(null)}
                 >
-                  <div className="flex justify-center mb-1 sm:mb-2">
-                    <div className={`${stat.bgColor} p-2 sm:p-3 rounded-full group-hover:scale-110 transition-transform duration-300`}>
-                      <Icon className={`w-4 h-4 sm:w-5 sm:h-6 ${stat.color}`} />
-                    </div>
+                  <div className={`bg-gradient-to-r ${stat.color} w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center mx-auto mb-1 sm:mb-2 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                   </div>
-                  <div className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900">{stat.value}</div>
+                  <div className="text-base sm:text-lg md:text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                    {stat.value}
+                  </div>
                   <div className="text-[10px] sm:text-xs md:text-sm text-slate-500">{stat.label}</div>
                 </div>
               );
@@ -272,50 +317,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
-      {/* Contact Info Cards */}
-      {/* <section ref={sectionRef} className="py-8 sm:py-12 lg:py-16">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-            {contactInfo.map((item, i) => {
-              const Icon = item.icon;
-              return (
-                <div
-                  key={i}
-                  className="group relative bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 animate-on-scroll"
-                  style={{ transitionDelay: `${i * 150}ms` }}
-                >
-                  <div className={`absolute inset-0 bg-gradient-to-r ${item.color} rounded-xl sm:rounded-2xl opacity-0 group-hover:opacity-10 transition-opacity duration-500`} />
-                  <div className={`bg-gradient-to-r ${item.color} w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 rounded-xl sm:rounded-2xl flex items-center justify-center mb-3 sm:mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
-                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
-                  </div>
-                  <p className="text-xs sm:text-sm font-medium text-gray-500">{item.label}</p>
-                  {item.href ? (
-                    <a
-                      href={item.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-slate-800 font-medium hover:text-blue-600 transition-colors text-sm sm:text-base lg:text-lg block"
-                    >
-                      {item.value}
-                    </a>
-                  ) : (
-                    <p className="text-slate-800 font-medium text-sm sm:text-base lg:text-lg">{item.value}</p>
-                  )}
-                  <p className="text-[10px] sm:text-xs text-gray-400 mt-0.5 sm:mt-1">{item.description}</p>
-                  {item.href && (
-                    <div className="mt-2 sm:mt-3 flex items-center gap-1 text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs sm:text-sm">
-                      <span>Get Directions</span>
-                      <ExternalLink className="w-3 h-3" />
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section> */}
-
 
       {/* Contact Form & Map */}
       <section ref={sectionRef} className="py-8 sm:py-12 lg:py-16 bg-gradient-to-br from-white via-blue-50/30 to-purple-50/30">
@@ -643,38 +644,42 @@ export default function Contact() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-12 sm:py-16 lg:py-20 overflow-hidden">
+      <section className="cta-section relative py-12 sm:py-16 lg:py-20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600" />
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-64 h-64 bg-white rounded-full -translate-x-1/2 -translate-y-1/2 animate-pulse-slow" />
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full translate-x-1/2 translate-y-1/2 animate-pulse-slow-delayed" />
         </div>
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <div className="max-w-3xl mx-auto text-center text-white">
-            <div className={`transition-all duration-700 ${
-              isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
-            }`}>
-              <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 sm:px-6 py-2 sm:py-3 rounded-full mb-4 sm:mb-6">
-                <Coffee className="w-4 h-4 sm:w-5 sm:h-5 animate-sparkle" />
-                <span className="text-xs sm:text-sm md:text-base font-medium">Let's Connect</span>
-              </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 px-4">
-                Ready to Start Your Journey?
-              </h2>
-              <p className="text-base sm:text-lg md:text-xl opacity-90 mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
-                Visit our campus or reach out to us. We'd love to show you around and answer all your questions.
-              </p>
-              <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4">
-                <button className="bg-white text-blue-600 hover:bg-gray-100 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 sm:gap-3">
-                  <Calendar className="w-5 h-5 sm:w-6 sm:h-6" />
-                  Schedule a Visit
-                  <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
-                </button>
-                <button className="border-2 border-white/50 hover:border-white text-white hover:bg-white/10 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg transition-all duration-300 hover:scale-105 backdrop-blur-sm flex items-center justify-center gap-2 sm:gap-3">
-                  <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
-                  Call Us Now
-                </button>
-              </div>
+          <div className={`max-w-3xl mx-auto text-center text-white transition-all duration-700 ${
+            isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
+          }`}>
+            <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 sm:px-6 py-2 sm:py-3 rounded-full mb-4 sm:mb-6">
+              <Coffee className="w-4 h-4 sm:w-5 sm:h-5 animate-sparkle" />
+              <span className="text-xs sm:text-sm md:text-base font-medium">Let's Connect</span>
+            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 px-4">
+              Ready to Start Your Journey?
+            </h2>
+            <p className="text-base sm:text-lg md:text-xl opacity-90 mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
+              Visit our campus or reach out to us. We'd love to show you around and answer all your questions.
+            </p>
+            <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4">
+              <button 
+                onClick={() => handleNavigation("/admissions")}
+                className="bg-white text-blue-600 hover:bg-gray-100 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 sm:gap-3"
+              >
+                <Calendar className="w-5 h-5 sm:w-6 sm:h-6" />
+                Schedule a Visit
+                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
+              </button>
+              <button 
+                onClick={() => handleNavigation("/contact")}
+                className="border-2 border-white/50 hover:border-white text-white hover:bg-white/10 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg transition-all duration-300 hover:scale-105 backdrop-blur-sm flex items-center justify-center gap-2 sm:gap-3"
+              >
+                <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
+                Call Us Now
+              </button>
             </div>
           </div>
         </div>

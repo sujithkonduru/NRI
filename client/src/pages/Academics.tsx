@@ -1,7 +1,7 @@
 // src/pages/Academics.jsx
 import { Button } from "@/components/ui/button";
 import { useState, useEffect, useRef } from "react";
-import Navigation from "@/components/Navigation"
+import Navigation from "@/components/Navigation";
 import { useLocation } from "wouter";
 import {
   BookOpen,
@@ -54,6 +54,9 @@ import {
   Menu,
   X,
   Home,
+  Medal,
+  UsersRound,
+  Dumbbell,
 } from "lucide-react";
 
 export default function Academics() {
@@ -68,6 +71,7 @@ export default function Academics() {
   });
   const [isPlaying, setIsPlaying] = useState(true);
   const statsRef = useRef(null);
+  const [hoveredCard, setHoveredCard] = useState(null);
 
   // Debug: Log when tab changes
   useEffect(() => {
@@ -119,15 +123,22 @@ export default function Academics() {
   ];
 
   const extracurricular = [
-    { name: "Music & Dance", icon: Music, description: "Vocal, instrumental, and dance training" },
-    { name: "Sports", icon: Trophy, description: "Cricket, football, basketball, athletics & more" },
-    { name: "Debate & Elocution", icon: Mic, description: "Public speaking and critical thinking" },
-    { name: "Art & Craft", icon: Brush, description: "Creative expression through visual arts" },
+    { name: "Music & Dance", icon: Music, description: "Vocal, instrumental, and dance training", color: "from-purple-400 to-pink-500" },
+    { name: "Sports", icon: Trophy, description: "Cricket, football, basketball, athletics & more", color: "from-green-400 to-emerald-500" },
+    { name: "Debate & Elocution", icon: Mic, description: "Public speaking and critical thinking", color: "from-blue-400 to-cyan-500" },
+    { name: "Art & Craft", icon: Brush, description: "Creative expression through visual arts", color: "from-orange-400 to-amber-500" },
   ];
 
   const boardExams = [
-    { name: "CBSE Board", icon: ScrollText, description: "Central Board of Secondary Education curriculum" },
-    { name: "State Board", icon: School, description: "State-level board examination preparation" },
+    { name: "CBSE Board", icon: ScrollText, description: "Central Board of Secondary Education curriculum", color: "from-blue-500 to-cyan-500" },
+    { name: "State Board", icon: School, description: "State-level board examination preparation", color: "from-green-500 to-teal-500" },
+  ];
+
+  const quickStats = [
+    { icon: Medal, label: "Board Toppers", value: "50+", color: "from-yellow-400 to-amber-500" },
+    { icon: UsersRound, label: "Students Enrolled", value: "5000+", color: "from-blue-400 to-indigo-500" },
+    { icon: Award, label: "Awards Won", value: "100+", color: "from-purple-400 to-pink-500" },
+    { icon: TrendingUp, label: "Success Rate", value: "95%", color: "from-green-400 to-emerald-500" },
   ];
 
   const tabs = [
@@ -194,6 +205,10 @@ export default function Academics() {
     setLocation('/');
   };
 
+  const handleNavigation = (path) => {
+    window.location.href = path;
+  };
+
   // Render content based on active tab
   const renderContent = () => {
     console.log("Rendering tab:", activeTab);
@@ -214,17 +229,6 @@ export default function Academics() {
   const renderPrograms = () => (
     <section className="py-4 sm:py-8 pb-12 sm:pb-16">
       <div className="container mx-auto px-4 sm:px-6">
-        {/* Back Button */}
-        {/* <div className="mb-6 sm:mb-8">
-          <button
-            onClick={handleBack}
-            className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium transition-all duration-300 hover:gap-3 group"
-          >
-            <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:-translate-x-1" />
-            <span>Back to Home</span>
-          </button>
-        </div> */}
-
         <div className="text-center mb-8 sm:mb-12 animate-on-scroll opacity-0 translate-y-10 transition-all duration-700">
           <div className="inline-flex items-center gap-2 bg-blue-100 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full mb-3 sm:mb-4">
             <GraduationCap className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600" />
@@ -288,17 +292,6 @@ export default function Academics() {
   const renderSubjects = () => (
     <section className="py-4 sm:py-8 pb-12 sm:pb-16">
       <div className="container mx-auto px-4 sm:px-6">
-        {/* Back Button */}
-        <div className="mb-6 sm:mb-8">
-          <button
-            onClick={handleBack}
-            className="inline-flex items-center gap-2 text-purple-600 hover:text-purple-700 font-medium transition-all duration-300 hover:gap-3 group"
-          >
-            <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:-translate-x-1" />
-            <span>Back to Home</span>
-          </button>
-        </div>
-
         <div className="text-center mb-8 sm:mb-12 animate-on-scroll opacity-0 translate-y-10 transition-all duration-700">
           <div className="inline-flex items-center gap-2 bg-purple-100 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full mb-3 sm:mb-4">
             <Target className="w-4 h-4 sm:w-5 sm:h-5 text-purple-600" />
@@ -349,8 +342,8 @@ export default function Academics() {
                   className="group bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 animate-on-scroll opacity-0 translate-y-10 transition-all duration-700"
                   style={{ transitionDelay: `${i * 150}ms` }}
                 >
-                  <div className="bg-gradient-to-br from-blue-100 to-cyan-100 w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 rounded-xl sm:rounded-2xl flex items-center justify-center mb-3 sm:mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Icon className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-blue-600" />
+                  <div className={`bg-gradient-to-r ${exam.color} w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 rounded-xl sm:rounded-2xl flex items-center justify-center mb-3 sm:mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                    <Icon className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-white" />
                   </div>
                   <h4 className="text-base sm:text-lg lg:text-xl font-bold text-slate-900 mb-1 sm:mb-2">{exam.name}</h4>
                   <p className="text-sm sm:text-base text-slate-600">{exam.description}</p>
@@ -381,10 +374,12 @@ export default function Academics() {
                   className="group bg-white rounded-xl p-4 sm:p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 animate-on-scroll opacity-0 translate-y-10 transition-all duration-700"
                   style={{ transitionDelay: `${i * 150}ms` }}
                 >
-                  <div className="bg-gradient-to-br from-orange-100 to-pink-100 w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 rounded-lg sm:rounded-xl flex items-center justify-center mb-2 sm:mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-orange-600" />
+                  <div className={`bg-gradient-to-r ${activity.color} w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 rounded-lg sm:rounded-xl flex items-center justify-center mb-2 sm:mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-white" />
                   </div>
-                  <h4 className="text-sm sm:text-base lg:text-lg font-bold text-slate-900 mb-0.5 sm:mb-1">{activity.name}</h4>
+                  <h4 className="text-sm sm:text-base lg:text-lg font-bold text-slate-900 mb-0.5 sm:mb-1 group-hover:text-blue-600 transition-colors">
+                    {activity.name}
+                  </h4>
                   <p className="text-xs sm:text-sm text-slate-500">{activity.description}</p>
                 </div>
               );
@@ -399,17 +394,6 @@ export default function Academics() {
   const renderAchievements = () => (
     <section className="py-4 sm:py-8 pb-12 sm:pb-16">
       <div className="container mx-auto px-4 sm:px-6">
-        {/* Back Button */}
-        <div className="mb-6 sm:mb-8">
-          <button
-            onClick={handleBack}
-            className="inline-flex items-center gap-2 text-yellow-600 hover:text-yellow-700 font-medium transition-all duration-300 hover:gap-3 group"
-          >
-            <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:-translate-x-1" />
-            <span>Back to Home</span>
-          </button>
-        </div>
-
         <div className="text-center mb-8 sm:mb-12 animate-on-scroll opacity-0 translate-y-10 transition-all duration-700">
           <div className="inline-flex items-center gap-2 bg-yellow-100 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full mb-3 sm:mb-4">
             <Trophy className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-600" />
@@ -485,43 +469,32 @@ export default function Academics() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 overflow-x-hidden">
-        <Navigation />
-      {/* Floating Particles Background - Hidden on mobile */}
-      <div className="hidden md:block fixed inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-20 right-10 animate-float-slow">
-          <Sparkles className="w-12 h-12 text-blue-200/30" />
-        </div>
-        <div className="absolute bottom-40 left-10 animate-float-medium">
-          <BookOpen className="w-14 h-14 text-purple-200/20" />
-        </div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-spin-slow">
-          <div className="w-96 h-96 border-4 border-blue-100/20 rounded-full" />
-        </div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-spin-slow-delayed">
-          <div className="w-64 h-64 border-4 border-purple-100/20 rounded-full" />
-        </div>
-      </div>
+      <Navigation />
 
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-600 text-white py-16 sm:py-20 lg:py-24 overflow-hidden">
+      {/* Hero Section with Background Image */}
+      <section className="relative text-white py-16 sm:py-20 lg:py-28 overflow-hidden min-h-[500px] flex items-center">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1920&h=1080&fit=crop')`,
+          }}
+        />
+        {/* Dark Overlay with Gradient */}
+        <div className="absolute inset-0 bg-gradient-to-r from-purple-900/90 via-blue-900/80 to-indigo-900/70" />
+        
+        {/* Decorative Elements */}
         <div className="absolute inset-0 opacity-10 md:opacity-20">
-            
           <div className="absolute top-0 left-0 w-48 sm:w-64 lg:w-96 h-48 sm:h-64 lg:h-96 bg-white rounded-full -translate-x-1/2 -translate-y-1/2 animate-pulse-slow" />
           <div className="absolute bottom-0 right-0 w-48 sm:w-64 lg:w-96 h-48 sm:h-64 lg:h-96 bg-white rounded-full translate-x-1/2 translate-y-1/2 animate-pulse-slow-delayed" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <div className="w-64 h-64 border-4 border-white/20 rounded-full animate-spin-slow" />
+          </div>
         </div>
+
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-             <div className="mb-6 sm:mb-8">
-          {/* <button
-            onClick={handleBack}
-            className="inline-flex items-center gap-2 text-white-600 hover:text-white-900 font-medium transition-all duration-300 hover:gap-3 group"
-          >
-            <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:-translate-x-1" />
-            <span>Back to Home</span>
-          </button> */}
-        </div>
           <div className="max-w-4xl mx-auto text-center animate-fadeInUp">
-            
-            <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/20 backdrop-blur-sm px-3 sm:px-6 py-1.5 sm:py-2 rounded-full mb-4 sm:mb-6 animate-bounce-in">
+            <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/20 backdrop-blur-sm px-3 sm:px-6 py-1.5 sm:py-2 rounded-full mb-4 sm:mb-6 animate-bounce-in border border-white/20">
               <GraduationCap className="w-4 h-4 sm:w-5 sm:h-5 animate-sparkle" />
               <span className="text-xs sm:text-sm font-medium">Excellence in Education (Class 1-10)</span>
             </div>
@@ -549,9 +522,37 @@ export default function Academics() {
         </div>
       </section>
 
-      {/* Stats Section */}
+      {/* Quick Stats */}
       <section className="-mt-6 sm:-mt-8 relative z-10 px-4 sm:px-6">
         <div className="container mx-auto">
+          <div className="bg-white/95 backdrop-blur-sm rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+            {quickStats.map((stat, i) => {
+              const Icon = stat.icon;
+              return (
+                <div
+                  key={i}
+                  className="text-center group animate-on-scroll opacity-0 scale-95 transition-all duration-700"
+                  style={{ transitionDelay: `${i * 100}ms` }}
+                  onMouseEnter={() => setHoveredCard(i)}
+                  onMouseLeave={() => setHoveredCard(null)}
+                >
+                  <div className={`bg-gradient-to-r ${stat.color} w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center mx-auto mb-1 sm:mb-2 group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                  </div>
+                  <div className="text-base sm:text-lg md:text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                    {stat.value}
+                  </div>
+                  <div className="text-[10px] sm:text-xs md:text-sm text-slate-500">{stat.label}</div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Stats Section */}
+      <section className="py-8 sm:py-12">
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="bg-white/90 backdrop-blur-sm rounded-2xl sm:rounded-3xl shadow-2xl p-4 sm:p-6 grid grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 divide-x-0 md:divide-x divide-gray-200">
             {[
               { value: counters.students, label: "Students", icon: Users, suffix: "+" },
@@ -639,12 +640,18 @@ export default function Academics() {
               Join Sri NRI High School and experience excellence in education from Class 1 to 10
             </p>
             <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4">
-              <button className="bg-white text-purple-600 hover:bg-gray-100 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 sm:gap-3">
+              <button 
+                onClick={() => handleNavigation("/admissions")}
+                className="bg-white text-purple-600 hover:bg-gray-100 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 sm:gap-3"
+              >
                 <GraduationCap className="w-5 h-5 sm:w-6 sm:h-6" />
                 Apply Now
                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
               </button>
-              <button className="border-2 border-white/50 hover:border-white text-white hover:bg-white/10 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg transition-all duration-300 hover:scale-105 backdrop-blur-sm flex items-center justify-center gap-2 sm:gap-3">
+              <button 
+                onClick={() => handleNavigation("/contact")}
+                className="border-2 border-white/50 hover:border-white text-white hover:bg-white/10 px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg transition-all duration-300 hover:scale-105 backdrop-blur-sm flex items-center justify-center gap-2 sm:gap-3"
+              >
                 <Calendar className="w-5 h-5 sm:w-6 sm:h-6" />
                 Schedule Visit
               </button>

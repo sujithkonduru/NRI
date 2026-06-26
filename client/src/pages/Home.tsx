@@ -77,15 +77,15 @@ export default function Home() {
       title: "Holistic Growth",
       desc: "Focus on academics, personality development, and life skills",
       color: "from-orange-500 to-orange-600",
-      image: "https://images.unsplash.com/photo-1544717297-fa95f6ee7e7b?w=400&h=300&fit=crop",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7eRI_e_4c6x5Wdt2T-fx3Tw935iT6wSgznQ&s",
     },
   ];
 
   const stats = [
-    { number: "5000+", label: "Students", icon: Users },
+    { number: "500+", label: "Students", icon: Users },
     { number: "92%", label: "Pass Rate", icon: Award },
-    { number: "200+", label: "Faculty", icon: GraduationCap },
-    { number: "25+", label: "Years of Excellence", icon: Trophy },
+    { number: "20+", label: "Faculty", icon: GraduationCap },
+    { number: "12+", label: "Years of Excellence", icon: Trophy },
   ];
 
   const programs = [
@@ -145,7 +145,7 @@ export default function Home() {
   ];
 
   const activities = [
-    { name: "Sports Day", image: "https://images.unsplash.com/photo-1461896836934-b6d4b5f3f1a8?w=400&h=300&fit=crop" },
+    { name: "Sports Day", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyhvLuOfp2WQZnk5sbfskNeFVpejflCEreDA&s" },
     { name: "Science Fair", image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=400&h=300&fit=crop" },
     { name: "Cultural Fest", image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop" },
   ];
@@ -205,7 +205,7 @@ export default function Home() {
                   className="border-2 border-white/50 text-white hover:bg-white/10 px-8 py-6 text-lg transition-all duration-300 hover:scale-105 backdrop-blur-sm"
                 >
                   Explore Campus
-                  <Play className="ml-2 w-5 h-5" />
+                  <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </div>
 

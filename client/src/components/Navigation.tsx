@@ -58,14 +58,14 @@ export default function Navigation() {
     className="h-14 w-14 sm:h-16 sm:w-16 rounded-full object-cover border-2 border-blue-100 shadow-md transition-all duration-300 group-hover:scale-110 group-hover:shadow-xl"
   />
 
-  <div className="flex flex-col">
-    <span className="text-xl sm:text-2xl font-bold text-blue-700 leading-tight">
-      Sri NRI
-    </span>
-    <span className="text-xs sm:text-sm text-slate-500">
-      High School
-    </span>
-  </div>
+  <div className="flex flex-row items-center gap-2 sm:gap-3">
+  <span className="text-xl sm:text-2xl font-bold text-blue-700 leading-tight whitespace-nowrap">
+    Sri NRI 
+  </span>
+  <span className="text-xs sm:text-sm text-slate-500 whitespace-nowrap">
+    High School
+  </span>
+</div>
 </Link>
 
           {/* Desktop Navigation */}
