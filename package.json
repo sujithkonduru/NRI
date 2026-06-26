@@ -4,11 +4,18 @@
   "type": "module",
   "license": "MIT",
   
+ 
   "scripts": {
-    "prebuild": "shx chmod +x node_modules/.bin/vite || shx echo skipped",
-    "build": "vite build",
     "dev": "cross-env NODE_ENV=development tsx watch server/_core/index.ts",
-    "start": "NODE_ENV=production node dist/index.js"
+    "build": "vite build",
+    "build:server": "esbuild server/_core/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+    "build:all": "vite build && esbuild server/_core/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+    "start": "NODE_ENV=production node dist/index.js",
+    "vercel-build": "vite build",
+    "check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "db:push": "drizzle-kit generate && drizzle-kit migrate"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.693.0",
